@@ -3,15 +3,15 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-slate-900 via-black/90 to-slate-800 text-white overflow-hidden pt-16">
+    <section className="relative min-h-screen  text-white overflow-hidden pt-16">
       {/* Background image + overlay */}
         <div className="absolute inset-0 -z-10">
           <img
-            src="/img2.jpg"
+            src="/img1.jpg"
             alt="Automotive background"
-            className="w-full h-full object-contain "
+            className="w-full h-full object-cover "
           />
-          <div className="absolute inset-0 bg-black/50 backdrop-blur-sm"></div>
+          <div className="absolute inset-0 bg-black/50 "></div>
         </div>
 
 
@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto px-4 py-20">
         <div className="max-w-5xl mx-auto text-center">
           {/* Title */}
-          <h1 className="text-5xl md:text-7xl  font-extrabold mb-6 bg-gradient-to-r from-blue-400 to-white bg-clip-text text-transparent animate-fade-in">
+          <h1 className="text-5xl md:text-7xl  font-extrabold mb-6 text-white bg-clip-text text-transparent animate-fade-in">
             KeyMax Automotive
           </h1>
 
