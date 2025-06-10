@@ -1,6 +1,3 @@
-Here’s a **simple but professional documentation** template for your **Keymax** project — an app that likely manages keys (car keys, motorbike keys, home keys, etc.). You can customize this and include it in your repo as a `README.md` file.
-
----
 
 ## 🔐 Keymax – Smart Key Management System
 
