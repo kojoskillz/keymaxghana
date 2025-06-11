@@ -19,10 +19,10 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-2">
-            <div className="p-2 bg-blue-600 rounded-lg">
-              <Key className="w-6 h-6 text-white" />
+            <div className="p-2 bg-white rounded-lg">
+              <img src="/logo.png" alt="" className="w-10" />
             </div>
-            <span className="text-xl font-bold text-white">KeyMax</span>
+            <span className="text-xl font-bold  w-16 text-white">KeyMax</span>
           </div>
 
           {/* Desktop Navigation */}
